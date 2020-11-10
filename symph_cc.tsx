@@ -1,18 +1,11 @@
 const items = [
   { id: 2, seqId: 4, parent: 5, name: "index.tsx" },
   { id: 3, seqId: 3, parent: 1, name: "Sidebar" },
-  { id: 9, seqId: 30, parent: 3, name: "V2" },
   { id: 4, seqId: 5, parent: 1, name: "Table" },
   { id: 7, seqId: 5, parent: 5, name: "SelectableDropdown.tsx" },
-  { id: 10, seqId: 60, parent: 3, name: "V3" },
   { id: 5, seqId: 2, parent: 1, name: "AssignmentTable" },
-  { id: 8, seqId: 20, parent: 3, name: "V1" },
   { id: 1, seqId: 1, parent: null, name: "components" },
   { id: 6, seqId: 2, parent: null, name: "controllers" },
-  { id: 11, seqId: 100, parent: 5, name: "V4" },
-  { id: 12, seqId: 100, parent: 11, name: "V4" },
-  { id: 13, seqId: 100, parent: 12, name: "V4" },
-  { id: 14, seqId: 100, parent: 13, name: "V4" },
 ];
 
 function getDepth(item, items) {
